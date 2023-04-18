@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.form1{
+    background-color: aliceblue;
+    width: 50vw;
+    height: 62vh;
+    border-radius:20px;
+    padding: 50px;
+    margin:150px 40px;
+}
+body{
+    background-size: cover;
+    background-image:url(new.jpg)
+}
+.right{
+    float: right;
+    border-left:1px solid black;
+    padding-left:30px;
+}
+i{
+    display:inline-block;
+    border: 1px solid black;
+    padding:16px 27px;
+    margin: 12px;
+    border-radius :7px;
+    color:indigo;
+}
+
+.email{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px 180px 10px 10px;
+    border-radius: 5px;
+}
+.email input{
+    padding: 0px;
+}
+
+.buttons{
+    transform:translateX(230px);
+    display: inline-block;
+}
+
+input[type=radio] {
+    display: inline-block;
+    width: 10%;
+    height:2em;
+    padding: 0px;
+    transform: translateX(-23px);
+   
+}
+input[type=text] {
+   border-style: hidden;
+    background-color: aliceblue;
+}
+input:hover[type=submit]{
+    border: 0px;
+    font-weight: bold;
+    border-radius:25px;
+    padding:10px 20px;
+    background-color:rgb(204, 204, 242);
+    color: indigo;
+}
+input:hover[type=reset]{
+    border: 0px;
+    font-weight: bold;
+    border-radius:25px;
+    padding:10px 20px;
+    background-color:rgb(204, 204, 242);
+    color: indigo;
+}
+.bottom{
+    display: inline-block;
+    border-top: 1px solid black;
+    padding: 30px 0px 0px 5px;
+}
+.box1{
+    display: inline-block;
+    transform: translate(200px,-50px);
+}
+
+input{
+    border: 0px;
+    font-weight: bold;
+    background-color: aliceblue; 
+    padding: 10px;
+}
+
+i:hover{
+    display:inline-block;
+    border: 1px solid black;
+    padding:19px 30px;
+    margin: 12px;
+    border-radius :7px;
+    color:indigo;
+}
+.fa-phone{
+    border-radius: 50%;
+    padding-left:40%;
+    padding-right:40%; 
+}
+.fa-phone:hover{
+    border-radius: 50%;
+    padding-left:40%;
+    padding-right:40%; 
+}
+
+.terms{
+    transform: translate(40px,-40px);
+}
